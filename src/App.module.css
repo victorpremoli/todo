@@ -1,0 +1,36 @@
+.wrapper {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  margin-top: calc(0px - 1.75rem);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.divider strong {
+  color: var(--blue);
+}
+
+.divider strong > span {
+  padding: 2px 8px;
+  border-radius: 1rem;
+  margin-left: 0.5rem;
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
